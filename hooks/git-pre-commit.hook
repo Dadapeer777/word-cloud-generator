@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 make test 2>&1
 if [ $? -ne 0 ]
